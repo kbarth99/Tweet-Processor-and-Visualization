@@ -12,7 +12,7 @@ Packages Required:
 * Vader Sentiment
 * Altair (+ Altair Viewer if ran in Spyder)
 * Spacy (+ en_core_web_sm)
-* GeoPy
+* GeoPy (+ GeoPandas)
 * Folium
 * WebBrowser
 
