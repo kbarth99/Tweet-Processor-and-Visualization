@@ -4,6 +4,8 @@ This project takes tweets scaped using SNScrape and asks for user input for pref
 
 This tweet processor was first a project in BUSI/COMP 488: "Data Science in the Business World" at UNC-Chapel Hill. I have completely reworked the project and added multiple new facets in order to make the process generalizable to any tweets scraped with SNScrape. 
 
+The dataset provided in this repository is a 738MB file of tweets including the word "Marriott" from 3/11/2020 through 3/11/2021. This program should be run on GPU if you'd like to include all tweets instead of those with a minimum like count of one, as the dataset will have long load times on CPU if all tweets are analyzed. 
+
 Packages Required:
 * Tensorflow/Tensorflow Hub
 * Sci-kit Learn
